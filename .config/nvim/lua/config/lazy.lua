@@ -28,6 +28,7 @@ require("lazy").setup({
 	spec = {
 		{ "ellisonleao/gruvbox.nvim",  config = function() vim.cmd.colorscheme "gruvbox" end },
 		{ import = "config.plugins" },
+		{ import = "config.plugins.lsp" }
 	},
 	change_detection = {
 		-- automatically check for config file changes and reload the ui
