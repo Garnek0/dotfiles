@@ -26,6 +26,7 @@ local map = vim.keymap.set
 
 map("n", "<Leader>ff", ":lua require'telescope.builtin'.find_files()<cr>", { desc = "Find Files"} )
 map("n", "<Leader>fs", ":lua require'telescope.builtin'.live_grep()<cr>", { desc = "Find String"} )
+map("n", "<Leader>ft", ":TodoTelescope<cr>", { desc = "Find Todos"} )
 map("n", "<Leader>sh", ":sv<cr>", { desc = "Split Horizontally"} )
 map("n", "<Leader>sv", ":vs<cr>", { desc = "Split Vertically"} )
 map("n", "<C-h>", ":wincmd h<cr>", { desc = "Activate Left Split"} )
